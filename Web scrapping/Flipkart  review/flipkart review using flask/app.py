@@ -13,3 +13,4 @@ logging.basicConfig(level=logging.INFO)
 
 url_client = uReq(flipkart_url)
 flipkart_page = url_client.read()
+bs("flipkart_page","html.parser")
